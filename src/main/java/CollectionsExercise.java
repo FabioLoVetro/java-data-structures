@@ -14,11 +14,13 @@ public class CollectionsExercise {
   }
 
   void removeItemFromTopOfStack(Deque<Integer> stack) {
-    stack.remove();
+    //stack.remove();
+    stack.pop();
   }
 
   void removeItemFromFrontOfQueue(Queue<Integer> queue) {
-    queue.remove(queue.peek());
+    //queue.remove(queue.peek());
+    queue.poll();
   }
 
   void addItemToTreeSet(Set<String> set, String item) {
